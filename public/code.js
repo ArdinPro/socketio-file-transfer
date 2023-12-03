@@ -41,7 +41,7 @@
 			shareFile({
 				filename: file.name,
 				total_buffer_size: buffer.length,
-				buffer_size: 1000000
+				buffer_size: 500000
 			}, buffer, el.querySelector(".progress"));
 		}
 		reader.readAsArrayBuffer (file);
